@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/risk_service.dir/main.cpp.o -o risk_service  sdk/libsdk_lib.a domain/libdomain_lib.a adapter/libadapter_lib.a service/libservice_lib.a api/libapi_lib.a 

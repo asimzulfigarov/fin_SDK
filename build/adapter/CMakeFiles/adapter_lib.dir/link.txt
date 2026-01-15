@@ -1,0 +1,2 @@
+/usr/bin/ar qc libadapter_lib.a CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o
+/usr/bin/ranlib libadapter_lib.a

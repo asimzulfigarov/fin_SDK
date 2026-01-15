@@ -1,0 +1,2 @@
+/usr/bin/ar qc libapi_lib.a CMakeFiles/api_lib.dir/cli_parser.cpp.o
+/usr/bin/ranlib libapi_lib.a

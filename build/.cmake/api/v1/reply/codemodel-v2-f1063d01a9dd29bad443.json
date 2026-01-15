@@ -1,0 +1,188 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "sdk",
+					"jsonFile" : "directory-sdk-Debug-2f50438fca1011c2f050.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sdk",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "domain",
+					"jsonFile" : "directory-domain-Debug-d9e62be9d62399b0b282.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "domain",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "adapter",
+					"jsonFile" : "directory-adapter-Debug-fdcdf856a59ad113b213.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "adapter",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "service",
+					"jsonFile" : "directory-service-Debug-c6883009d343c2e75719.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "service",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "api",
+					"jsonFile" : "directory-api-Debug-2a9c8334f4ffbf0de720.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "api",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "risk_service",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "adapter_lib::@7836dd37d6d479cf13f2",
+					"jsonFile" : "target-adapter_lib-Debug-0556208c746761fda502.json",
+					"name" : "adapter_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "api_lib::@10fae538ba4e8521554e",
+					"jsonFile" : "target-api_lib-Debug-39f353539258bb9eb884.json",
+					"name" : "api_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "domain_lib::@6afb148eabff8838dfea",
+					"jsonFile" : "target-domain_lib-Debug-dd030179cd0a87a38d6a.json",
+					"name" : "domain_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "risk_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-risk_service-Debug-b0ec1269848bfa2ca3f3.json",
+					"name" : "risk_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sdk_lib::@d9ef5e2645e4685d91c2",
+					"jsonFile" : "target-sdk_lib-Debug-ad00ae268bbe004b0447.json",
+					"name" : "sdk_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "service_lib::@63e5b5a4137cfa77cb9d",
+					"jsonFile" : "target-service_lib-Debug-ab72a97b934ace3155e3.json",
+					"name" : "service_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vboxuser/Documents/finProject/build",
+		"source" : "/home/vboxuser/Documents/finProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/vboxuser/Documents/finProject/build",
+  "command": "/usr/bin/g++  -I/home/vboxuser/Documents/finProject/sdk -I/home/vboxuser/Documents/finProject/domain -I/home/vboxuser/Documents/finProject/adapter -I/home/vboxuser/Documents/finProject/service -I/home/vboxuser/Documents/finProject/api -g -std=gnu++17 -o CMakeFiles/risk_service.dir/main.cpp.o -c /home/vboxuser/Documents/finProject/main.cpp",
+  "file": "/home/vboxuser/Documents/finProject/main.cpp",
+  "output": "CMakeFiles/risk_service.dir/main.cpp.o"
+},
+{
+  "directory": "/home/vboxuser/Documents/finProject/build/sdk",
+  "command": "/usr/bin/g++  -I/home/vboxuser/Documents/finProject/sdk -g -std=gnu++17 -o CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o -c /home/vboxuser/Documents/finProject/sdk/summit_sdk.cpp",
+  "file": "/home/vboxuser/Documents/finProject/sdk/summit_sdk.cpp",
+  "output": "sdk/CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o"
+},
+{
+  "directory": "/home/vboxuser/Documents/finProject/build/domain",
+  "command": "/usr/bin/g++  -I/home/vboxuser/Documents/finProject/domain -g -std=gnu++17 -o CMakeFiles/domain_lib.dir/domain.cpp.o -c /home/vboxuser/Documents/finProject/domain/domain.cpp",
+  "file": "/home/vboxuser/Documents/finProject/domain/domain.cpp",
+  "output": "domain/CMakeFiles/domain_lib.dir/domain.cpp.o"
+},
+{
+  "directory": "/home/vboxuser/Documents/finProject/build/adapter",
+  "command": "/usr/bin/g++  -I/home/vboxuser/Documents/finProject/adapter -g -std=gnu++17 -o CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o -c /home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp",
+  "file": "/home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp",
+  "output": "adapter/CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o"
+},
+{
+  "directory": "/home/vboxuser/Documents/finProject/build/service",
+  "command": "/usr/bin/g++  -I/home/vboxuser/Documents/finProject/service -g -std=gnu++17 -o CMakeFiles/service_lib.dir/RiskService.cpp.o -c /home/vboxuser/Documents/finProject/service/RiskService.cpp",
+  "file": "/home/vboxuser/Documents/finProject/service/RiskService.cpp",
+  "output": "service/CMakeFiles/service_lib.dir/RiskService.cpp.o"
+},
+{
+  "directory": "/home/vboxuser/Documents/finProject/build/api",
+  "command": "/usr/bin/g++  -I/home/vboxuser/Documents/finProject/api -g -std=gnu++17 -o CMakeFiles/api_lib.dir/cli_parser.cpp.o -c /home/vboxuser/Documents/finProject/api/cli_parser.cpp",
+  "file": "/home/vboxuser/Documents/finProject/api/cli_parser.cpp",
+  "output": "api/CMakeFiles/api_lib.dir/cli_parser.cpp.o"
+}
+]
