@@ -143,6 +143,16 @@
 				"backtrace" : 2,
 				"fragment" : "api/libapi_lib.a",
 				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "adapter/libadapter_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "sdk/libsdk_lib.a",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"

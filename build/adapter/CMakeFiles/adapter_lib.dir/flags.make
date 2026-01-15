@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/vboxuser/Documents/finProject/adapter
+CXX_INCLUDES = -I/home/vboxuser/Documents/finProject/adapter -I/home/vboxuser/Documents/finProject/sdk
 
 CXX_FLAGS = -g -std=gnu++17
 

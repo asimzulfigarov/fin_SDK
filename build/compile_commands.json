@@ -19,13 +19,13 @@
 },
 {
   "directory": "/home/vboxuser/Documents/finProject/build/adapter",
-  "command": "/usr/bin/g++  -I/home/vboxuser/Documents/finProject/adapter -g -std=gnu++17 -o CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o -c /home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp",
+  "command": "/usr/bin/g++  -I/home/vboxuser/Documents/finProject/adapter -I/home/vboxuser/Documents/finProject/sdk -g -std=gnu++17 -o CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o -c /home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp",
   "file": "/home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp",
   "output": "adapter/CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o"
 },
 {
   "directory": "/home/vboxuser/Documents/finProject/build/service",
-  "command": "/usr/bin/g++  -I/home/vboxuser/Documents/finProject/service -g -std=gnu++17 -o CMakeFiles/service_lib.dir/RiskService.cpp.o -c /home/vboxuser/Documents/finProject/service/RiskService.cpp",
+  "command": "/usr/bin/g++  -I/home/vboxuser/Documents/finProject/service -I/home/vboxuser/Documents/finProject/adapter -I/home/vboxuser/Documents/finProject/sdk -g -std=gnu++17 -o CMakeFiles/service_lib.dir/RiskService.cpp.o -c /home/vboxuser/Documents/finProject/service/RiskService.cpp",
   "file": "/home/vboxuser/Documents/finProject/service/RiskService.cpp",
   "output": "service/CMakeFiles/service_lib.dir/RiskService.cpp.o"
 },

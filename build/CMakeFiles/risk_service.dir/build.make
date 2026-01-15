@@ -97,6 +97,8 @@ risk_service: domain/libdomain_lib.a
 risk_service: adapter/libadapter_lib.a
 risk_service: service/libservice_lib.a
 risk_service: api/libapi_lib.a
+risk_service: adapter/libadapter_lib.a
+risk_service: sdk/libsdk_lib.a
 risk_service: CMakeFiles/risk_service.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/Documents/finProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable risk_service"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/risk_service.dir/link.txt --verbose=$(VERBOSE)

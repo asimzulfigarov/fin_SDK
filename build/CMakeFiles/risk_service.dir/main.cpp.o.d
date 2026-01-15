@@ -148,4 +148,9 @@ CMakeFiles/risk_service.dir/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc
+ /usr/include/c++/13/bits/istream.tcc \
+ /home/vboxuser/Documents/finProject/domain/Trade.h \
+ /home/vboxuser/Documents/finProject/service/RiskService.h \
+ /home/vboxuser/Documents/finProject/service/../domain/RiskResult.h \
+ /home/vboxuser/Documents/finProject/service/../adapter/SummitAdapter.h \
+ /home/vboxuser/Documents/finProject/service/../adapter/../sdk/summit_sdk.h
