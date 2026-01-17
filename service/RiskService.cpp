@@ -3,14 +3,14 @@
 namespace service {
 
 domain::RiskResult RiskService::calculateRisk(const domain::Trade& trade) {
-    adapter::SummitAdapter adapter;
 
-    
-    domain::RiskResult result = adapter.calculateRisk(trade);
+    domain::RiskResult result = _adapter.calculateRisk(trade);
 
     
     
     return result;
 }
+
+RiskService::RiskService(adapter::SummitAdapter& adapter) : _adapter(adapter){}
 
 }

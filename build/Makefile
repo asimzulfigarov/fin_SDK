@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/vboxuser/Documents/finProject/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
@@ -128,6 +138,32 @@ risk_service: cmake_check_build_system
 risk_service/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/risk_service.dir/build.make CMakeFiles/risk_service.dir/build
 .PHONY : risk_service/fast
+
+#=============================================================================
+# Target rules for targets named Catch2
+
+# Build rule for target.
+Catch2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch2
+.PHONY : Catch2
+
+# fast build rule for target.
+Catch2/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/build
+.PHONY : Catch2/fast
+
+#=============================================================================
+# Target rules for targets named Catch2WithMain
+
+# Build rule for target.
+Catch2WithMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch2WithMain
+.PHONY : Catch2WithMain
+
+# fast build rule for target.
+Catch2WithMain/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build
+.PHONY : Catch2WithMain/fast
 
 #=============================================================================
 # Target rules for targets named sdk_lib
@@ -194,6 +230,19 @@ api_lib/fast:
 	$(MAKE) $(MAKESILENT) -f api/CMakeFiles/api_lib.dir/build.make api/CMakeFiles/api_lib.dir/build
 .PHONY : api_lib/fast
 
+#=============================================================================
+# Target rules for targets named risk_service_tests
+
+# Build rule for target.
+risk_service_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk_service_tests
+.PHONY : risk_service_tests
+
+# fast build rule for target.
+risk_service_tests/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/risk_service_tests.dir/build.make tests/CMakeFiles/risk_service_tests.dir/build
+.PHONY : risk_service_tests/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -226,10 +275,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... Catch2"
+	@echo "... Catch2WithMain"
 	@echo "... adapter_lib"
 	@echo "... api_lib"
 	@echo "... domain_lib"
 	@echo "... risk_service"
+	@echo "... risk_service_tests"
 	@echo "... sdk_lib"
 	@echo "... service_lib"
 	@echo "... main.o"

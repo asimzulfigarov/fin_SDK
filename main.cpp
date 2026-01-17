@@ -18,7 +18,8 @@ int main(int argc, char* argv[]) {
     trade.price = std::stod(argv[4]);
 
     // Call business service
-    service::RiskService riskService;
+    adapter::SummitAdapter summitAdapter;
+    service::RiskService riskService(summitAdapter);
     domain::RiskResult result = riskService.calculateRisk(trade);
 
     // Print output

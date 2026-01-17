@@ -8,6 +8,9 @@ namespace service {
 class RiskService {
 public:
     domain::RiskResult calculateRisk(const domain::Trade& trade);
+    RiskService(adapter::SummitAdapter& adapter);
+private:
+    adapter::SummitAdapter& _adapter;
 };
 
 }

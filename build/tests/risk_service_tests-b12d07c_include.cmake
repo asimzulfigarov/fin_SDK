@@ -1,0 +1,5 @@
+if(EXISTS "/home/vboxuser/Documents/finProject/build/tests/risk_service_tests-b12d07c_tests.cmake")
+  include("/home/vboxuser/Documents/finProject/build/tests/risk_service_tests-b12d07c_tests.cmake")
+else()
+  add_test(risk_service_tests_NOT_BUILT-b12d07c risk_service_tests_NOT_BUILT-b12d07c)
+endif()

@@ -7,6 +7,9 @@
 namespace adapter{
     class SummitAdapter{
         public:
-            domain::RiskResult calculateRisk(const domain::Trade& trade);
+            virtual domain::RiskResult calculateRisk(const domain::Trade& trade);
+            virtual ~SummitAdapter() = default;
     };
 }
+
+
