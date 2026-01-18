@@ -16,6 +16,8 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(Catch2)
 
+
+
 # --------------------
 # Project libraries
 # --------------------
@@ -37,6 +39,12 @@ target_link_libraries(risk_service PRIVATE
     service_lib
     api_lib
 )
+
+
+#JSON
+
+find_package(nlohmann_json 3.10.5 REQUIRED)
+target_link_libraries(risk_service PRIVATE nlohmann_json::nlohmann_json)
 
 # --------------------
 # Enable testing

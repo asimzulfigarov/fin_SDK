@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/vboxuser/Documents/finProject/sdk -I/home/vboxuser/Documents/finProject/domain -I/home/vboxuser/Documents/finProject/adapter -I/home/vboxuser/Documents/finProject/service -I/home/vboxuser/Documents/finProject/api
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -g -std=gnu++17
 

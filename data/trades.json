@@ -1,0 +1,5 @@
+[
+    { "tradeId": 101, "instrument": "BOND", "notional": 1000000, "price": 98.5 },
+    { "tradeId": 102, "instrument": "STOCK", "notional": 500000, "price": 45.3 },
+    { "tradeId": 103, "instrument": "FUTURE", "notional": 750000, "price": 12.8 }
+]

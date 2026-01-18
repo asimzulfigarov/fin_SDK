@@ -92,12 +92,12 @@ risk_service_tests_EXTERNAL_OBJECTS =
 
 tests/risk_service_tests: tests/CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o
 tests/risk_service_tests: tests/CMakeFiles/risk_service_tests.dir/build.make
-tests/risk_service_tests: _deps/catch2-build/src/libCatch2Main.a
+tests/risk_service_tests: _deps/catch2-build/src/libCatch2Maind.a
 tests/risk_service_tests: service/libservice_lib.a
 tests/risk_service_tests: adapter/libadapter_lib.a
 tests/risk_service_tests: domain/libdomain_lib.a
 tests/risk_service_tests: sdk/libsdk_lib.a
-tests/risk_service_tests: _deps/catch2-build/src/libCatch2.a
+tests/risk_service_tests: _deps/catch2-build/src/libCatch2d.a
 tests/risk_service_tests: tests/CMakeFiles/risk_service_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/Documents/finProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable risk_service_tests"
 	cd /home/vboxuser/Documents/finProject/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/risk_service_tests.dir/link.txt --verbose=$(VERBOSE)

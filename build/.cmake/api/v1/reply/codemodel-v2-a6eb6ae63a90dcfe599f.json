@@ -1,0 +1,277 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "_deps/catch2-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-_deps.catch2-build-Debug-b1208c190cea666efc56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/catch2-src"
+				},
+				{
+					"build" : "_deps/catch2-build/src",
+					"jsonFile" : "directory-_deps.catch2-build.src-Debug-cd0b0c6cd8598cf9777c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/catch2-src/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "sdk",
+					"jsonFile" : "directory-sdk-Debug-2f50438fca1011c2f050.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sdk",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "domain",
+					"jsonFile" : "directory-domain-Debug-d9e62be9d62399b0b282.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "domain",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "adapter",
+					"jsonFile" : "directory-adapter-Debug-fdcdf856a59ad113b213.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "adapter",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "service",
+					"jsonFile" : "directory-service-Debug-c6883009d343c2e75719.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "service",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "api",
+					"jsonFile" : "directory-api-Debug-2a9c8334f4ffbf0de720.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "api",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "risk_service",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Catch2::@fa92aa50e9bf5e1a7206",
+					"jsonFile" : "target-Catch2-Debug-693199f0ffab373ef87d.json",
+					"name" : "Catch2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Catch2WithMain::@fa92aa50e9bf5e1a7206",
+					"jsonFile" : "target-Catch2WithMain-Debug-81f8af8fe52a2f4789c3.json",
+					"name" : "Catch2WithMain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "adapter_lib::@7836dd37d6d479cf13f2",
+					"jsonFile" : "target-adapter_lib-Debug-e14abf98af6c0ea9acba.json",
+					"name" : "adapter_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "api_lib::@10fae538ba4e8521554e",
+					"jsonFile" : "target-api_lib-Debug-39f353539258bb9eb884.json",
+					"name" : "api_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "domain_lib::@6afb148eabff8838dfea",
+					"jsonFile" : "target-domain_lib-Debug-dd030179cd0a87a38d6a.json",
+					"name" : "domain_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "risk_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-risk_service-Debug-427cee31cc6ff6234615.json",
+					"name" : "risk_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "risk_service_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-risk_service_tests-Debug-60890c609bf37bb104f1.json",
+					"name" : "risk_service_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sdk_lib::@d9ef5e2645e4685d91c2",
+					"jsonFile" : "target-sdk_lib-Debug-ad00ae268bbe004b0447.json",
+					"name" : "sdk_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "service_lib::@63e5b5a4137cfa77cb9d",
+					"jsonFile" : "target-service_lib-Debug-6644e316e31a0e8ab7ea.json",
+					"name" : "service_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vboxuser/Documents/finProject/build",
+		"source" : "/home/vboxuser/Documents/finProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

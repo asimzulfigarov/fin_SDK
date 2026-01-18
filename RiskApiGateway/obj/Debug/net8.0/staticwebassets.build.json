@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zwRvqJ6AjkgVo7FmeuqhA0s4AxnX6EdfWxCe7kffP8w=",
+  "Source": "RiskApiGateway",
+  "BasePath": "_content/RiskApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

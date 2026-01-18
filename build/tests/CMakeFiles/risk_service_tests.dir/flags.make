@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/vboxuser/Documents/finProject/build/_deps/catch2-src/src/catch2/.. -I/home/vboxuser/Documents/finProject/build/_deps/catch2-build/generated-includes -I/home/vboxuser/Documents/finProject/service -I/home/vboxuser/Documents/finProject/adapter -I/home/vboxuser/Documents/finProject/sdk -I/home/vboxuser/Documents/finProject/domain
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -g -std=gnu++17
 
