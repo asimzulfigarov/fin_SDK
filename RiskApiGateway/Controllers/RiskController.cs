@@ -1,42 +1,62 @@
 using Microsoft.AspNetCore.Mvc;
-using RiskApiGateway.Models; // your existing DTOs
-using System.Collections.Generic;
+using System.Diagnostics;
+using RiskApiGateway.Models;
 
-namespace RiskApiGateway.Controllers
+[ApiController]
+[Route("[controller]")]
+public class RiskController : ControllerBase
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class RiskController : ControllerBase
+    [HttpPost]
+    public IActionResult Post([FromBody] List<TradeDto> trades)
     {
-        [HttpPost]
-        public IActionResult Post([FromBody] List<TradeDto> trades)
+        var results = new List<RiskResultDto>();
+
+        foreach (var trade in trades)
         {
-            if (trades == null || trades.Count == 0)
-            {
-                Console.WriteLine("No trades received.");
-                return BadRequest("No trades provided.");
-            }
+            var process = new Process();
+            process.StartInfo.FileName = "/home/vboxuser/Documents/finProject/build/risk_service"; // 🔴 CHANGE THIS
+            process.StartInfo.Arguments =
+                $"{trade.TradeId} {trade.Instrument} {trade.Notional} {trade.Price}";
+            process.StartInfo.RedirectStandardOutput = true;
+            process.StartInfo.RedirectStandardError = true;
+            process.StartInfo.UseShellExecute = false;
 
-            Console.WriteLine($"Received {trades.Count} trades:");
-            foreach (var trade in trades)
-            {
-                Console.WriteLine($"TradeId={trade.TradeId}, Instrument={trade.Instrument}, Notional={trade.Notional}, Price={trade.Price}");
-            }
+            process.Start();
 
-            var results = new List<RiskResultDto>();
-            foreach (var trade in trades)
+            string output = process.StandardOutput.ReadToEnd();
+            string error = process.StandardError.ReadToEnd();
+
+            process.WaitForExit();
+
+            if (process.ExitCode == 0)
             {
-                // Mock risk calculation
                 results.Add(new RiskResultDto
                 {
                     TradeId = trade.TradeId,
-                    RiskValue = 123.45, // replace later with real calculation
+                    RiskValue = ExtractRisk(output),
                     Success = true,
                     ErrorMessage = ""
                 });
             }
-
-            return Ok(results);
+            else
+            {
+                results.Add(new RiskResultDto
+                {
+                    TradeId = trade.TradeId,
+                    RiskValue = 0,
+                    Success = false,
+                    ErrorMessage = error
+                });
+            }
         }
+
+        return Ok(results);
+    }
+
+    private double ExtractRisk(string output)
+    {
+        // Example: "Trade 101 risk value: 123.4"
+        var parts = output.Split(':');
+        return double.Parse(parts.Last().Trim());
     }
 }

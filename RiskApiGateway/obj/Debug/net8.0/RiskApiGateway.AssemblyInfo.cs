@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RiskApiGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3a34070ed928221c75333231ad9435b0d6ee34b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31720337a0d6b28adfbeb404ec426e43cb622ed4")]
 [assembly: System.Reflection.AssemblyProductAttribute("RiskApiGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RiskApiGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

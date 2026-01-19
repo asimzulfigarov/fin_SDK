@@ -7,7 +7,7 @@
 
 
 int main(int argc, char* argv[]) {
-    /*
+    
     if (argc != 5) {
         std::cerr << "Usage: ./risk-service <tradeId> <instrument> <notional> <price>\n";
         return 1;
@@ -33,8 +33,9 @@ int main(int argc, char* argv[]) {
         std::cout << "Trade " << result.tradeId
                   << " failed: " << result.errorMessage << "\n";
     }
-*/
 
+
+/*
  if (argc != 2) {
         std::cerr << "Usage: ./risk-service <trades.json>\n";
         return 1;
@@ -71,4 +72,5 @@ int main(int argc, char* argv[]) {
     }
 
     return 0;
+    */
 }
