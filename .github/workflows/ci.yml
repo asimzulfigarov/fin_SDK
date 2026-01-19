@@ -1,0 +1,28 @@
+name: C++ CI
+
+# Run CI on push or pull request
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repo
+      - uses: actions/checkout@v3
+
+      # Step 2: Install dependencies
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y build-essential cmake g++ 
+
+      # Step 3: Configure project with CMake
+      - name: Configure CMake
+        run: cmake -B build -S . -DCMAKE_BUILD_TYPE=Debug
+
+      # Step 4: Build project
+      - name: Build
+        run: cmake --build build
+
+      # Step 5: Run tests
+      - name: Run tests
+        run: ./build/tests/risk_service_tests
