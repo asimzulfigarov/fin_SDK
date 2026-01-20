@@ -26,4 +26,4 @@ jobs:
 
       # Step 5: Run tests
       - name: Run tests
-        run: ./build/risk_service_tests -s -r console
+        run: ./build/tests/risk_service_tests -s -r console
