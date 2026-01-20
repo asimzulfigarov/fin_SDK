@@ -73,15 +73,15 @@ sdk/CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o: sdk/CMakeFiles/sdk_lib.dir/flags.ma
 sdk/CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o: /home/vboxuser/Documents/finProject/sdk/summit_sdk.cpp
 sdk/CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o: sdk/CMakeFiles/sdk_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Documents/finProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sdk/CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o"
-	cd /home/vboxuser/Documents/finProject/build/sdk && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sdk/CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o -MF CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o.d -o CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o -c /home/vboxuser/Documents/finProject/sdk/summit_sdk.cpp
+	cd /home/vboxuser/Documents/finProject/build/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sdk/CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o -MF CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o.d -o CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o -c /home/vboxuser/Documents/finProject/sdk/summit_sdk.cpp
 
 sdk/CMakeFiles/sdk_lib.dir/summit_sdk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sdk_lib.dir/summit_sdk.cpp.i"
-	cd /home/vboxuser/Documents/finProject/build/sdk && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/sdk/summit_sdk.cpp > CMakeFiles/sdk_lib.dir/summit_sdk.cpp.i
+	cd /home/vboxuser/Documents/finProject/build/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/sdk/summit_sdk.cpp > CMakeFiles/sdk_lib.dir/summit_sdk.cpp.i
 
 sdk/CMakeFiles/sdk_lib.dir/summit_sdk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sdk_lib.dir/summit_sdk.cpp.s"
-	cd /home/vboxuser/Documents/finProject/build/sdk && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/sdk/summit_sdk.cpp -o CMakeFiles/sdk_lib.dir/summit_sdk.cpp.s
+	cd /home/vboxuser/Documents/finProject/build/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/sdk/summit_sdk.cpp -o CMakeFiles/sdk_lib.dir/summit_sdk.cpp.s
 
 # Object files for target sdk_lib
 sdk_lib_OBJECTS = \

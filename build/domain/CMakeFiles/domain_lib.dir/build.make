@@ -73,15 +73,15 @@ domain/CMakeFiles/domain_lib.dir/domain.cpp.o: domain/CMakeFiles/domain_lib.dir/
 domain/CMakeFiles/domain_lib.dir/domain.cpp.o: /home/vboxuser/Documents/finProject/domain/domain.cpp
 domain/CMakeFiles/domain_lib.dir/domain.cpp.o: domain/CMakeFiles/domain_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Documents/finProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object domain/CMakeFiles/domain_lib.dir/domain.cpp.o"
-	cd /home/vboxuser/Documents/finProject/build/domain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT domain/CMakeFiles/domain_lib.dir/domain.cpp.o -MF CMakeFiles/domain_lib.dir/domain.cpp.o.d -o CMakeFiles/domain_lib.dir/domain.cpp.o -c /home/vboxuser/Documents/finProject/domain/domain.cpp
+	cd /home/vboxuser/Documents/finProject/build/domain && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT domain/CMakeFiles/domain_lib.dir/domain.cpp.o -MF CMakeFiles/domain_lib.dir/domain.cpp.o.d -o CMakeFiles/domain_lib.dir/domain.cpp.o -c /home/vboxuser/Documents/finProject/domain/domain.cpp
 
 domain/CMakeFiles/domain_lib.dir/domain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/domain_lib.dir/domain.cpp.i"
-	cd /home/vboxuser/Documents/finProject/build/domain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/domain/domain.cpp > CMakeFiles/domain_lib.dir/domain.cpp.i
+	cd /home/vboxuser/Documents/finProject/build/domain && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/domain/domain.cpp > CMakeFiles/domain_lib.dir/domain.cpp.i
 
 domain/CMakeFiles/domain_lib.dir/domain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/domain_lib.dir/domain.cpp.s"
-	cd /home/vboxuser/Documents/finProject/build/domain && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/domain/domain.cpp -o CMakeFiles/domain_lib.dir/domain.cpp.s
+	cd /home/vboxuser/Documents/finProject/build/domain && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/domain/domain.cpp -o CMakeFiles/domain_lib.dir/domain.cpp.s
 
 # Object files for target domain_lib
 domain_lib_OBJECTS = \

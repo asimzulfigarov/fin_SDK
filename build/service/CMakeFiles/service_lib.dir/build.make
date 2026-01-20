@@ -73,15 +73,15 @@ service/CMakeFiles/service_lib.dir/RiskService.cpp.o: service/CMakeFiles/service
 service/CMakeFiles/service_lib.dir/RiskService.cpp.o: /home/vboxuser/Documents/finProject/service/RiskService.cpp
 service/CMakeFiles/service_lib.dir/RiskService.cpp.o: service/CMakeFiles/service_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Documents/finProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object service/CMakeFiles/service_lib.dir/RiskService.cpp.o"
-	cd /home/vboxuser/Documents/finProject/build/service && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT service/CMakeFiles/service_lib.dir/RiskService.cpp.o -MF CMakeFiles/service_lib.dir/RiskService.cpp.o.d -o CMakeFiles/service_lib.dir/RiskService.cpp.o -c /home/vboxuser/Documents/finProject/service/RiskService.cpp
+	cd /home/vboxuser/Documents/finProject/build/service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT service/CMakeFiles/service_lib.dir/RiskService.cpp.o -MF CMakeFiles/service_lib.dir/RiskService.cpp.o.d -o CMakeFiles/service_lib.dir/RiskService.cpp.o -c /home/vboxuser/Documents/finProject/service/RiskService.cpp
 
 service/CMakeFiles/service_lib.dir/RiskService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/service_lib.dir/RiskService.cpp.i"
-	cd /home/vboxuser/Documents/finProject/build/service && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/service/RiskService.cpp > CMakeFiles/service_lib.dir/RiskService.cpp.i
+	cd /home/vboxuser/Documents/finProject/build/service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/service/RiskService.cpp > CMakeFiles/service_lib.dir/RiskService.cpp.i
 
 service/CMakeFiles/service_lib.dir/RiskService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/service_lib.dir/RiskService.cpp.s"
-	cd /home/vboxuser/Documents/finProject/build/service && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/service/RiskService.cpp -o CMakeFiles/service_lib.dir/RiskService.cpp.s
+	cd /home/vboxuser/Documents/finProject/build/service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/service/RiskService.cpp -o CMakeFiles/service_lib.dir/RiskService.cpp.s
 
 # Object files for target service_lib
 service_lib_OBJECTS = \

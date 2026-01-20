@@ -1,0 +1,13 @@
+# Ignore CMake build folder and cache
+/build/
+/CMakeCache.txt
+/CMakeFiles/
+
+# Optional: ignore compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+
+# Optional: ignore editor settings
+.vscode/

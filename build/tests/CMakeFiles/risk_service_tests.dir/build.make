@@ -73,15 +73,15 @@ tests/CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o: tests/CMakeFiles/
 tests/CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o: /home/vboxuser/Documents/finProject/tests/RiskServiceTest.cpp
 tests/CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o: tests/CMakeFiles/risk_service_tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Documents/finProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o"
-	cd /home/vboxuser/Documents/finProject/build/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o -MF CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o.d -o CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o -c /home/vboxuser/Documents/finProject/tests/RiskServiceTest.cpp
+	cd /home/vboxuser/Documents/finProject/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o -MF CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o.d -o CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o -c /home/vboxuser/Documents/finProject/tests/RiskServiceTest.cpp
 
 tests/CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.i"
-	cd /home/vboxuser/Documents/finProject/build/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/tests/RiskServiceTest.cpp > CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.i
+	cd /home/vboxuser/Documents/finProject/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/tests/RiskServiceTest.cpp > CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.i
 
 tests/CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.s"
-	cd /home/vboxuser/Documents/finProject/build/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/tests/RiskServiceTest.cpp -o CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.s
+	cd /home/vboxuser/Documents/finProject/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/tests/RiskServiceTest.cpp -o CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.s
 
 # Object files for target risk_service_tests
 risk_service_tests_OBJECTS = \
@@ -92,12 +92,12 @@ risk_service_tests_EXTERNAL_OBJECTS =
 
 tests/risk_service_tests: tests/CMakeFiles/risk_service_tests.dir/RiskServiceTest.cpp.o
 tests/risk_service_tests: tests/CMakeFiles/risk_service_tests.dir/build.make
-tests/risk_service_tests: _deps/catch2-build/src/libCatch2Maind.a
+tests/risk_service_tests: _deps/catch2-build/src/libCatch2Main.a
 tests/risk_service_tests: service/libservice_lib.a
 tests/risk_service_tests: adapter/libadapter_lib.a
 tests/risk_service_tests: domain/libdomain_lib.a
 tests/risk_service_tests: sdk/libsdk_lib.a
-tests/risk_service_tests: _deps/catch2-build/src/libCatch2d.a
+tests/risk_service_tests: _deps/catch2-build/src/libCatch2.a
 tests/risk_service_tests: tests/CMakeFiles/risk_service_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/Documents/finProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable risk_service_tests"
 	cd /home/vboxuser/Documents/finProject/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/risk_service_tests.dir/link.txt --verbose=$(VERBOSE)

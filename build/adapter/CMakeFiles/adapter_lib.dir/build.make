@@ -73,15 +73,15 @@ adapter/CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o: adapter/CMakeFiles/adapt
 adapter/CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o: /home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp
 adapter/CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o: adapter/CMakeFiles/adapter_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Documents/finProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object adapter/CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o"
-	cd /home/vboxuser/Documents/finProject/build/adapter && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT adapter/CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o -MF CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o.d -o CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o -c /home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp
+	cd /home/vboxuser/Documents/finProject/build/adapter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT adapter/CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o -MF CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o.d -o CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.o -c /home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp
 
 adapter/CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.i"
-	cd /home/vboxuser/Documents/finProject/build/adapter && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp > CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.i
+	cd /home/vboxuser/Documents/finProject/build/adapter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp > CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.i
 
 adapter/CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.s"
-	cd /home/vboxuser/Documents/finProject/build/adapter && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp -o CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.s
+	cd /home/vboxuser/Documents/finProject/build/adapter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/adapter/SummitAdapter.cpp -o CMakeFiles/adapter_lib.dir/SummitAdapter.cpp.s
 
 # Object files for target adapter_lib
 adapter_lib_OBJECTS = \

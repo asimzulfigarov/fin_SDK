@@ -73,15 +73,15 @@ api/CMakeFiles/api_lib.dir/cli_parser.cpp.o: api/CMakeFiles/api_lib.dir/flags.ma
 api/CMakeFiles/api_lib.dir/cli_parser.cpp.o: /home/vboxuser/Documents/finProject/api/cli_parser.cpp
 api/CMakeFiles/api_lib.dir/cli_parser.cpp.o: api/CMakeFiles/api_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Documents/finProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object api/CMakeFiles/api_lib.dir/cli_parser.cpp.o"
-	cd /home/vboxuser/Documents/finProject/build/api && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT api/CMakeFiles/api_lib.dir/cli_parser.cpp.o -MF CMakeFiles/api_lib.dir/cli_parser.cpp.o.d -o CMakeFiles/api_lib.dir/cli_parser.cpp.o -c /home/vboxuser/Documents/finProject/api/cli_parser.cpp
+	cd /home/vboxuser/Documents/finProject/build/api && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT api/CMakeFiles/api_lib.dir/cli_parser.cpp.o -MF CMakeFiles/api_lib.dir/cli_parser.cpp.o.d -o CMakeFiles/api_lib.dir/cli_parser.cpp.o -c /home/vboxuser/Documents/finProject/api/cli_parser.cpp
 
 api/CMakeFiles/api_lib.dir/cli_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/api_lib.dir/cli_parser.cpp.i"
-	cd /home/vboxuser/Documents/finProject/build/api && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/api/cli_parser.cpp > CMakeFiles/api_lib.dir/cli_parser.cpp.i
+	cd /home/vboxuser/Documents/finProject/build/api && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Documents/finProject/api/cli_parser.cpp > CMakeFiles/api_lib.dir/cli_parser.cpp.i
 
 api/CMakeFiles/api_lib.dir/cli_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/api_lib.dir/cli_parser.cpp.s"
-	cd /home/vboxuser/Documents/finProject/build/api && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/api/cli_parser.cpp -o CMakeFiles/api_lib.dir/cli_parser.cpp.s
+	cd /home/vboxuser/Documents/finProject/build/api && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Documents/finProject/api/cli_parser.cpp -o CMakeFiles/api_lib.dir/cli_parser.cpp.s
 
 # Object files for target api_lib
 api_lib_OBJECTS = \
