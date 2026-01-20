@@ -1,6 +1,5 @@
 name: C++ CI
 
-# Run CI on push or pull request
 on: [push, pull_request]
 
 jobs:
@@ -13,7 +12,9 @@ jobs:
 
       # Step 2: Install dependencies
       - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install -y build-essential cmake g++ 
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake g++ nlohmann-json3-dev
 
       # Step 3: Configure project with CMake
       - name: Configure CMake
@@ -25,4 +26,4 @@ jobs:
 
       # Step 5: Run tests
       - name: Run tests
-        run: ./build/tests/risk_service_tests
+        run: ./build/risk_service_tests -s -r console
