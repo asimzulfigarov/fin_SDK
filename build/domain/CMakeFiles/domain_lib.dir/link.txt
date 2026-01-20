@@ -1,2 +1,0 @@
-/usr/bin/ar qc libdomain_lib.a CMakeFiles/domain_lib.dir/domain.cpp.o
-/usr/bin/ranlib libdomain_lib.a

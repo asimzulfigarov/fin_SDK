@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsdk_lib.a CMakeFiles/sdk_lib.dir/summit_sdk.cpp.o
-/usr/bin/ranlib libsdk_lib.a

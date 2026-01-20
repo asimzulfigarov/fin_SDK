@@ -1,5 +1,0 @@
-add_test( [==[RiskService returns correct result]==] /home/vboxuser/Documents/finProject/build/tests/risk_service_tests [==[RiskService returns correct result]==]  )
-set_tests_properties( [==[RiskService returns correct result]==] PROPERTIES WORKING_DIRECTORY /home/vboxuser/Documents/finProject/build/tests)
-add_test( [==[SummitAdapter handles SDK success and failure]==] /home/vboxuser/Documents/finProject/build/tests/risk_service_tests [==[SummitAdapter handles SDK success and failure]==]  )
-set_tests_properties( [==[SummitAdapter handles SDK success and failure]==] PROPERTIES WORKING_DIRECTORY /home/vboxuser/Documents/finProject/build/tests)
-set( risk_service_tests_TESTS [==[RiskService returns correct result]==] [==[SummitAdapter handles SDK success and failure]==])
